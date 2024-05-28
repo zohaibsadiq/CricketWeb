@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* .charm-regular {
+    font-family: "Charm", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .charm-bold {
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  
+  @font-face {
+    font-family: "btBrik";
+    src: url("./font/btBrik//BTBrikOblique.otf") format("truetype");
+  }
+  
+  .btBrik {
+    font-family: "btBrik";
+  }
+  
+  @font-face {
+    font-family: "MontserratBold";
+    src: url("./font/Montserrat/Montserrat-Bold.otf") format("truetype");
+  }
+  .MontserratBold {
+    font-family: MontserratBold;
+  }
+  @font-face {
+    font-family: "MontserratExtraBold";
+    src: url("./font/Montserrat/Montserrat-ExtraBold.otf") format("truetype");
+  }
+  .MontserratExtraBold {
+    font-family: MontserratExtraBold;
+  }
+  
+  @font-face {
+    font-family: "MontserratLight";
+    src: url("./font/Montserrat/Montserrat-Regular.otf") format("truetype");
+  }
+  .MontserratLight {
+    font-family: MontserratLight;
+  }
+  
+  @font-face {
+    font-family: "MontserratMedium";
+    src: url("./font/Montserrat/Montserrat-SemiBold.otf") format("truetype");
+  }
+  .MontserratMedium {
+    font-family: MontserratMedium;
+  }

@@ -8,6 +8,7 @@ import { useTheme } from '@mui/material/styles';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import React, { useState } from 'react';
 import StatsCard from './StatsCard';
+import PlayerStats from './PlayerStats';
 // Import necessary data
 import { bowlersData, moreData, playersData } from './data';
 
@@ -55,7 +56,7 @@ export default function AllStats() {
   };
 
   return (
-    <Box sx={{ width: '100%', marginTop: '10px', padding: '0px' }}>
+    <Box sx={{ width: '100%', marginTop: '0px', padding: '0px' }}>
       <Box
         sx={{
           display: 'flex',
@@ -243,8 +244,10 @@ export default function AllStats() {
               data={playersData.fastestHundreds}
               number='8'
             />
+            
             {/* Add more categories here */}
           </div>
+
         </CustomTabPanel>
         <CustomTabPanel value={value} index={1}>
           <div

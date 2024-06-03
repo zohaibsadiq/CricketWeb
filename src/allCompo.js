@@ -1,22 +1,13 @@
-import React from "react";
-import TypographyTypes from "./typography";  
-import Buttons from "./buttons";
-import TextField from "./textField";
-import CardComponent from "./card";
-import DialogBox from "./dialog";
-import StatsBanner from "./components/StatsBnnner";
+import React from 'react';
+import StatsBanner from './components/StatsBnnner';
+import PlayerStats from './components/PlayerStats';
 const AllCompo = () => {
-
-    return (
-        <div>
-         {/* <TypographyTypes/> */}
-         {/* <Buttons/> */}
-            {/* <TextField/> */}
-            {/* <CardComponent/> */}
-            {/* <DialogBox/> */}
-            <StatsBanner/>
-        </div>
-    );
-    }
+  return (
+    <div>
+      <StatsBanner />
+      
+    </div>
+  );
+};
 
 export default AllCompo;

@@ -137,13 +137,14 @@ const StatsCard = ({ category, data, number }) => {
                         variant='body1'
                         fontFamily={'MontserratBold'}
                         letterSpacing={'-0.5px'}
+                        fontSize={'15px'}
                       >
                         {player.rank} {player.name}
                       </Typography>
                     }
                     secondary={
                       <Typography
-                        fontSize={'15px'}
+                        fontSize={'12px'}
                         fontFamily={'MontserratLight'}
                       >
                         {player.team}
@@ -177,12 +178,23 @@ const StatsCard = ({ category, data, number }) => {
               sx={{
                 backgroundColor: '#111827',
                 color: 'white',
+
                 '&:hover': {
                   backgroundColor: '#111827', // Remove hover background color
                 },
               }}
             >
-              {showMore ? 'View Less' : 'View More'}
+              <Typography
+                variant='body2'
+                sx={{
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                }}
+              >
+                {showMore ? 'View Less' : 'View More'}
+              </Typography>
+              {/* {showMore ? 'View Less' : 'View More'} */}
             </Button>
           )}
         </CardContent>

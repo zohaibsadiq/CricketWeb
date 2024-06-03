@@ -27,12 +27,13 @@ const Stats = ({ data, name, number, image }) => {
         justifyContent: 'center',
         alignItems: 'center',
         position: 'relative',
-        padding: '20px',
+        padding: '30px',
         borderRadius: '10px',
         overflow: 'hidden',
         width: '100%',
         maxWidth: '100%',
         overflowX: 'auto',
+      
       }}
     >
       <Box
@@ -42,7 +43,7 @@ const Stats = ({ data, name, number, image }) => {
           justifyContent: 'center',
           alignItems: 'center',
           zIndex: 2,
-          marginBottom: '-20px', // Remove the gap between image and text
+          marginBottom: '5px', // Remove the gap between image and text
           flexWrap: 'wrap',
           textAlign: 'center', // Center content on small screens
         }}
